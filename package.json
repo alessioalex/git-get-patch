@@ -1,0 +1,33 @@
+{
+  "name": "git-get-patch",
+  "version": "0.1.0",
+  "description": "Returns a readable stream with a git patch.",
+  "main": "index.js",
+  "dependencies": {
+    "git-spawned-stream": "~0.1.0"
+  },
+  "devDependencies": {
+    "proxyquire": "~1.0.0",
+    "should": "~3.3.2",
+    "mocha": "~1.19.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessioalex/git-get-patch"
+  },
+  "keywords": [
+    "git",
+    "file",
+    "stream",
+    "git-file"
+  ],
+  "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com> (http://careers.stackoverflow.com/alessioalex)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alessioalex/git-get-patch/issues"
+  },
+  "homepage": "https://github.com/alessioalex/git-get-patch"
+}
